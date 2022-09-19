@@ -21,3 +21,7 @@ BONUS: create un metodo che restituisca il codice con un pad left di 0 per arriv
 (ad esempio codice 91 diventa 00000091, mentre codice 123445567 resta come è)
 */
 
+Prodotto Cellulare = new Prodotto("Iphone", "Nuovo iphone 14", 50.0);
+
+Console.WriteLine(Cellulare.GetFullName());
+Console.WriteLine(Cellulare.PrezzoTassato());
