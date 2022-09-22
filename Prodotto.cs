@@ -1,4 +1,6 @@
 ﻿
+using System.Reflection.PortableExecutable;
+
 public class Prodotto
 {
     private int code;
