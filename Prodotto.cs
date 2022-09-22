@@ -51,5 +51,13 @@ public class Prodotto
         return GetCode().ToString() + GetName();
     }
 
+    public void StampaProdotto(Prodotto p)
+    {
+        Console.WriteLine(p.code);
+        Console.WriteLine(p.name);
+        Console.WriteLine(p.description);
+        Console.WriteLine(p.price);
+        Console.WriteLine(p.iva);
+    }
 
 }
